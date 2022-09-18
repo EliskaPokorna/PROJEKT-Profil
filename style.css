@@ -16,7 +16,7 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
-	color: white;
+	color: #ffffffbb;
 
 }
 
@@ -55,22 +55,20 @@ h1{
 
 .odkazy{
 	margin: 0;
+	padding: 0;
 }
 
-.odkazy li{
-	display: inline-block;
-}
 
 .odkazy a{
-	color: white;
+	color: #ffffffbb;
 	text-decoration: none;
 	font-size: 18px;
 	text-transform: uppercase;
-	padding: 10px;
-	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	display: block;
+	width: 100%;
 }
-
 
 .portfolio:hover{
 	background-color: #e74c3c;
@@ -85,4 +83,23 @@ h1{
 }
 
 
+.facebook{
+	display: inline-block;
+	width: 50%;
+	border-right: 1px solid #ffffffbb;
+	text-align: center;
+}
+
+.twitter{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.portfolio{
+	display: block;
+	text-align: center;
+	border-top: 1px solid #ffffffbb;
+	border-bottom: 1px solid #ffffffbb;
+}
 
