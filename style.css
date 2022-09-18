@@ -16,4 +16,73 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	color: white;
+
 }
+
+.profil{
+	width: 300px;
+	background-color: #31363b;
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: 100px;
+	position: relative;
+}
+
+.foto{
+	width: 300px;
+}
+
+.logo{
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+	right: 30px;
+	top: 175px;
+}
+
+h1{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.obsah{
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: normal;
+}
+
+
+.odkazy{
+	margin: 0;
+}
+
+.odkazy li{
+	display: inline-block;
+}
+
+.odkazy a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.portfolio:hover{
+	background-color: #e74c3c;
+}
+
+.facebook:hover{
+	background-color: #3b5998;
+}
+
+.twitter:hover{
+	background-color: #1da1f2;
+}
+
+
+
